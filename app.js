@@ -1,5 +1,5 @@
 'use strict';
-const articles = require('./controllers/articles');
+const articles = require('./controllers/articles.controller');
 const compress = require('koa-compress');
 const logger = require('koa-logger');
 const serve = require('koa-static');
